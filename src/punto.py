@@ -14,10 +14,9 @@ class Punto:
         return f"({self.x}, {self.y})"
     
     def opuesto(self):
-        " Devuelvo el punto opuesto "
+        "Devuelvo el punto opuesto"
         factor = -1
-        return Punto(self.x*factor , self.y*factor)
-    
+        return Punto(self.x * factor, self.y * factor)
     
     def __str__(self):
-        return f"{self._punto_a} ---- {self._punto_b}"
+        return f"({self.x}, {self.y})"
